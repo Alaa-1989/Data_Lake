@@ -45,12 +45,16 @@ We use a star schema to create:
 
 ### Dimension Tables
 **users** - Users in the app.
+
 **songs** - Songs in music database.
+
 **artists** - Artists in music database.
+
 **time** - Timestamps of records in songplays broken down into specific units.
 
 
 ## Project files
 
 **etl.py** - Reads data from S3, processes that data using Spark, and writes them back to S3
+
 **dl.cfgcontains** - AWS credentials
