@@ -18,7 +18,9 @@ In this project, we'll build an ETL pipeline for a data lake hosted on S3.
 
 ## Datasets & ETL pipeline
 We'll be working with two datasets that reside in S3. Here are the S3 links for each:
+
 Song data: `s3://udacity-dend/song_data`
+
 Log data: `s3://udacity-dend/log_data`
 
 ### Source Of Data
